@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Neha Patil's frontend developer portfolio">
+  <title>Neha Patil | Frontend Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">Neha<span>.</span></a>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Neha Patil</h1>
+        <h2>Senior Frontend Developer</h2>
+        <p>
+          I build responsive, accessible, and user-friendly
+          web experiences using modern frontend technologies.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-avatar">NP</div>
+        <p class="hero-card-title">Frontend Developer</p>
+        <p class="hero-card-text">Turning ideas into web experiences.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <p class="eyebrow">GET TO KNOW ME</p>
+      <h2 class="section-title">About Me</h2>
+      <p class="section-description">
+        I am a frontend developer with experience building
+        responsive web interfaces and reusable UI components.
+        I have worked with JavaScript, Vue.js, AEM, HTML, and CSS.
+        I am currently strengthening my JavaScript skills and
+        learning through hands-on projects.
+      </p>
+    </section>
+
+    <section class="section section-muted" id="skills">
+      <div class="container">
+        <p class="eyebrow">WHAT I WORK WITH</p>
+        <h2 class="section-title">Technical Skills</h2>
+
+        <div class="skills-grid">
+          <div class="skill-card">HTML5</div>
+          <div class="skill-card">CSS3 / SCSS</div>
+          <div class="skill-card">JavaScript</div>
+          <div class="skill-card">Vue.js</div>
+          <div class="skill-card">Vuex</div>
+          <div class="skill-card">AEM</div>
+          <div class="skill-card">Git</div>
+          <div class="skill-card">React</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <p class="eyebrow">SOME OF MY WORK</p>
+      <h2 class="section-title">Featured Projects</h2>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-visual project-visual-one">01</div>
+          <div class="project-content">
+            <p class="project-type">Frontend Project</p>
+            <h3>SkillShip</h3>
+            <p>
+              A course-learning interface where users can browse
+              courses, filter by category, search for courses,
+              view lessons, and track learning progress.
+            </p>
+            <div class="tag-list">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <a href="#contact" class="text-link">Project details →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual project-visual-two">02</div>
+          <div class="project-content">
+            <p class="project-type">Professional Experience</p>
+            <h3>Responsive Web Interfaces</h3>
+            <p>
+              Frontend development work involving responsive
+              layouts, reusable UI patterns, styling, and
+              web content integration.
+            </p>
+            <div class="tag-list">
+              <span>HTML</span>
+              <span>SCSS</span>
+              <span>Vue.js</span>
+            </div>
+            <a href="#contact" class="text-link">Contact for details →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="certifications">
+      <div class="container">
+        <p class="eyebrow">PROFESSIONAL DEVELOPMENT</p>
+        <h2 class="section-title">Certifications</h2>
+        <ul class="certification-list">
+          <li>Adobe Certified Expert — AEM Sites Developer</li>
+          <li>Adobe Certified Expert — AEM Sites Business Practitioner</li>
+          <li>Veeva Approved Email Technical Certification</li>
+          <li>Veeva CLM Technical Certification</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2 class="section-title">Contact Me</h2>
+      <p class="section-description">
+        Feel free to contact me about frontend development
+        opportunities or professional collaborations.
+      </p>
+
+      <div class="contact-links">
+        <!-- Replace these placeholder values with your real links. -->
+        <a href="mailto:YOUR_EMAIL@example.com">Email Me</a>
+        <a href="YOUR_LINKEDIN_URL" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="YOUR_GITHUB_URL" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="current-year"></span> Neha Patil. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
